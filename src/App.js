@@ -35,7 +35,7 @@ function App() {
    <>
  <div className="container my-3">
   <Router>
- <Navbar firstItem="Text Utility App" secondItem="About us" color={mode} toggleMode={toggle}/>
+ <Navbar firstItem="Text Utility App " secondItem="About us" color={mode} toggleMode={toggle}/>
  <Alert alert={alert}/>
    <Routes>
     <Route exact path='/' element={<Form alert={updateAlert} title = "Input your text" color = {mode} />}  />
